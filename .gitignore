@@ -1,0 +1,33 @@
+# VS Code: ignore personal settings, keep shared configurations
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/build.ps1
+
+# Build output
+/build/
+
+# Compiled executables
+*.exe
+*.out
+
+# Compiled object files
+*.o
+*.obj
+
+# Debugging files
+*.pdb
+*.ilk
+*.dSYM/
+
+# IDE files
+.idea/
+.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
